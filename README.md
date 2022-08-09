@@ -4,11 +4,12 @@
 
 ## Description
 
-+ Developed social media site with **Full-Stack** frameworks and deployed with **Docker** on **Aliyun Cloud Platform**.
-+ Integrated **Vue** framework and produced the **Ajax**-based front-end with **Bootstrap, HTML/CSS/JavaScript** to write the front-end.
++ Integrated **Vue.js** framework with **Bootstrap** CSS framework in the front-end and utilized **Ajax** to communicate with the back-end.
 + Adopted **Vuex** to manage state and data between different Vue components in the front-end.
-+ Integrated **Django** framework and implemented the code by **Python** to write the back-end, returning the data in **JSON**-format to the front-end.
-+ Adopted **Sqlite** as the database to store the posts and the followers.
++ Developed Restful MVC back-end with CURD functionality using **Java**, **SpringBoot** and **MongoDB**.
++ Applied **Hibernate** and **Spring JPA** for better database operations and data persistence.
++ Utilized **Apache Maven** to automate the processes of building projects and adding dependencies.
++ Deployed the social media website with **Docker** and **Tomcat** on **AWS**.
 
 ## Get Started
 
@@ -68,11 +69,13 @@ Guide:
 
 ## 技术细节
 
-+ 实现了该网页的全栈开发。同时将该网页部署在云端，存储在云端的Docker容器中，可以快速地迁移到不同的云平台上，目前存储在阿里云。
++ 实现了该网页的全栈开发。同时将该网页部署在云端AWS，存储在云端的Docker容器中,使用Tomcat作为web服务器。
 + 前端使用了Vue框架，Bootstrap库，HTML/CSS/Javascript进行开发，同时使用了Ajax交互数据。
 + 前端使用了Vuex在Vue框架不同组件之间传递信息。
-+ 后端使用了Django框架和Python进行开发，将数据以JSON格式传回前端。
-+ 采用了Sqlite作为数据库存储用户发布的帖子和关注记录等信息。
++ 后端使用了Spring Boot框架和Java进行开发，将数据以JSON格式传回前端。
++ 采用了MongoDB作为数据库存储用户发布的帖子和关注记录等信息。
++ 使用了Hibernate和Spring JPA进行数据持久化。
++ 使用Apache Maven自动化建立项目和引入依赖的操作。
 
 ## 功能介绍
 
